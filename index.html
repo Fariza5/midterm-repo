@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering College - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Engineering College</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="registration.html">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+    <div class="overlay"></div>
+    <div class="container position-relative">
+      <h1 class="display-3 fw-bold mb-3">Engineering College</h1>
+      <p class="lead mb-4">Innovate. Learn. Succeed.</p>
+      <a href="registration.html" class="btn btn-lg btn-warning me-2">Apply Now</a>
+      <a href="about.html" class="btn btn-outline-light btn-lg">Learn More</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Why Choose Us</h2>
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <div class="feature-card p-4 shadow-sm rounded">
+            <i class="bi bi-mortarboard-fill display-4 text-primary mb-3"></i>
+            <h5>Expert Faculty</h5>
+            <p>Learn from experienced professors and industry professionals.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 shadow-sm rounded">
+            <i class="bi bi-cpu-fill display-4 text-primary mb-3"></i>
+            <h5>Modern Labs</h5>
+            <p>State-of-the-art facilities for hands-on learning and innovation.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card p-4 shadow-sm rounded">
+            <i class="bi bi-people-fill display-4 text-primary mb-3"></i>
+            <h5>Vibrant Community</h5>
+            <p>Join clubs, events, and workshops to enrich your student life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Programs</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm program-card">
+            <img src="assets/images/program1.jpg" class="card-img-top" alt="Computer Engineering">
+            <div class="card-body">
+              <h5 class="card-title">Computer Engineering</h5>
+              <p class="card-text">Software, AI, robotics, and more in a modern curriculum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm program-card">
+            <img src="assets/images/program2.jpg" class="card-img-top" alt="Mechanical Engineering">
+            <div class="card-body">
+              <h5 class="card-title">Mechanical Engineering</h5>
+              <p class="card-text">Robotics, manufacturing, and energy systems with hands-on labs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm program-card">
+            <img src="assets/images/program3.jpg" class="card-img-top" alt="Electrical Engineering">
+            <div class="card-body">
+              <h5 class="card-title">Electrical Engineering</h5>
+              <p class="card-text">Circuits, electronics, and renewable energy technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Slider -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Students Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <p class="lead">"The faculty and labs made my learning experience outstanding!"</p>
+            <small class="text-muted">- Alice Johnson, Computer Engineering</small>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">"I loved the vibrant campus life and community activities."</p>
+            <small class="text-muted">- Mark Lee, Mechanical Engineering</small>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">"Hands-on projects prepared me perfectly for industry challenges."</p>
+            <small class="text-muted">- Sara Kim, Electrical Engineering</small>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-4 text-center">
+    &copy; 2025 Engineering College. All Rights Reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
